@@ -36,7 +36,7 @@ Workflow
 
 All required components were placed and connected in the schematic editor. Power symbols and PWR\_FLAG symbols were added to resolve ERC errors.
 
-![SCHEMATIC](imagefilename.png)
+![SCHEMATIC](Screenshot 2026-05-23 215042.png)
 
 2\. ERC Validation
 ------------------
@@ -66,7 +66,7 @@ Appropriate footprints were assigned to each component:
 *   Connector header footprint
     
 
-![Image Name](imagefilename.png)
+![Footprint Assignment](Screenshot 2026-05-23 203151.png)
 
 4\. PCB Layout and Routing
 --------------------------
@@ -75,14 +75,14 @@ The schematic was transferred to the PCB editor. Components were arranged compac
 
 A board outline was created using the Edge.Cuts layer.
 
-![Image Name](imagefilename.png)
+![PCB Layout](Screenshot 2026-05-23 212037.png)
 
 5\. DRC and 3D Visualization
 ----------------------------
 
 After routing, Design Rule Check (DRC) was run successfully without errors. The final PCB was also viewed in KiCad’s 3D viewer.
 
-![Image Name](imagefilename.png)
+![3D](Screenshot 2026-05-23 212432.png)
 
 Gerber Generation
 =================
